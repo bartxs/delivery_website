@@ -17,7 +17,7 @@ body {
   font-size: var(--normal-font-size);
   background-color: var(--body-color);
   color: var(--text-color);
-  // transition: 0.5s; // Animation dark mode
+  transition: 0.5s; // For animation dark mode
 }
 
 h1,
@@ -25,17 +25,15 @@ h2,
 h3 {
   font-weight: var(--font-semi-bold);
   color: var(--title-color);
-  line-height: 1.5s;
+  line-height: 1.5;
 }
 
 ul {
   list-style: none;
 }
-
 a {
   text-decoration: none;
 }
-
 img {
   max-width: 100%;
   height: auto;
